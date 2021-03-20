@@ -1,0 +1,99 @@
+body{
+    font-family: Andale Mono, monospace;
+}
+.logo{
+    margin-left:15%;
+    color:lightcoral;
+    font-size:180%;
+}
+.loginTitle{
+    display:flex;
+    justify-content:center;
+    font-size:3.5rem;
+}
+.welcome{
+    display:flex;
+    justify-content:center;
+    font-size:2.25rem;
+}
+form{
+    display:flex;
+    flex-direction:column;
+}
+label{
+    font-size:1.5rem;
+}
+input{
+    margin-top:1.5%;
+    margin-bottom:2.75%;
+    width:25rem;
+    height:1.5rem;
+    font-size:1.5rem;
+}
+.emailSection{
+    margin-left:8.65%;
+}
+.passwordSection{
+    margin-left:2.25%;
+}
+.submitContainer{
+    display:flex;
+    justify-content:center;
+    margin-top:3.5%;
+}
+.login{
+    width:12rem;
+    height:3.5rem;
+    font-size:1.3rem;
+    font-family: Andale Mono, monospace;
+}
+form{
+    width:57%;
+    margin:auto;
+}
+.newUser{
+    display:flex;
+    justify-content:center;
+    margin-top:3.5%;
+}
+.newUserText{
+    color:black;
+}
+.newUserText:hover{
+    color:gray;
+}
+.error{
+    display:flex;
+    justify-content:center;
+    color:red;
+    font-size:1.1rem;
+    
+}
+@media screen and (max-width:1150px){
+    .emailSection{
+        margin-left:10%;
+    }
+}
+@media screen and (max-width:1025px){
+    form{
+        width:45%;
+    }
+    .emailSection{
+        margin-left:0;
+    }
+    #email{
+        display:block;
+    }
+    .passwordSection{
+        margin-left:0;
+    }
+    #password{
+        display:block;
+    }
+}
+
+@media screen and (max-width:600px){
+    form{
+        width:60%;
+    }
+}
